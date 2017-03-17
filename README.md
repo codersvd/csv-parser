@@ -11,3 +11,5 @@ Command is for starting app
 For testing
 
 ```npm test```
+
+Open link http://localhost:3000
