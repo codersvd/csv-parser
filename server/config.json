@@ -9,6 +9,10 @@
     "app": "mongodb://127.0.0.1/csv",
     "sessions": "mongodb://127.0.0.1/csv_sessions"
   },
+  "mongodbTest": {
+    "app": "mongodb://127.0.0.1/csvTest",
+    "sessions": "mongodb://127.0.0.1/csvTest_sessions"
+  },
   "cookie": {
     "sessionDomain": ".csv",
     "sessionCookieName": "local.csv.sid",

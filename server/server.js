@@ -78,7 +78,7 @@ app.post('/upload', (req, res) => {
 });
 
 function takeCsv(fileName, res){
-    var fs = require('fs'),
+    let fs = require('fs'),
         readline = require('readline'),
         instream = fs.createReadStream(fileName),
         outstream = new (require('stream'))(),
@@ -102,6 +102,7 @@ function takeCsv(fileName, res){
     });
 
     rl.on('close', function (line) {
+        console.log(line);
         console.log('done reading file.');
         res.send('File uploaded and done reading file.');
     });
