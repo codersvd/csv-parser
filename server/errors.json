@@ -1,0 +1,18 @@
+{
+  "404": {
+    "code": 404,
+    "message": "Page not found"
+  },
+  "400": {
+    "code": 400,
+    "message": "Bad Request"
+  },
+  "403": {
+    "code": 403,
+    "message": "Forbidden"
+  },
+  "500": {
+    "code": 500,
+    "message": "Internal Server Error"
+  }
+}

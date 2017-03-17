@@ -1,0 +1,17 @@
+{
+  "app": {
+    "title": "Quest",
+    "host": "127.0.0.1",
+    "port": 3000,
+    "jsonSpaces": 4
+  },
+  "mongodb": {
+    "app": "mongodb://127.0.0.1/csv",
+    "sessions": "mongodb://127.0.0.1/csv_sessions"
+  },
+  "cookie": {
+    "sessionDomain": ".csv",
+    "sessionCookieName": "local.csv.sid",
+    "secret": "TYEqbEIMW9Y2ydqBoglKaAdk9NmlGrtMfbS6KrA7mOg="
+  }
+}
